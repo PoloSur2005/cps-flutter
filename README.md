@@ -17,7 +17,8 @@ void iniciarTimer() {
 ```
 Decidí hacer el ciclo cada 0.1 segundos para que la actualización de la velocidad sea más fluida y la medición sea más exacta; sin embargo, esto puede cambiarse según las necesidades de uso.
 
-###Botón
+### Botón
+
 ```dart
 floatingActionButton: FloatingActionButton(
   onPressed: () {
@@ -35,7 +36,7 @@ floatingActionButton: FloatingActionButton(
 
 ```
 Lo importante de esta parte es inicializar el tiempo en uno debido a que si lo dejamos en cero en el primer click la función devolverá un "infinity" debido a la operación: 1/0; de esta manera evitamos este error.
-###Consideraciones finales
+### Consideraciones finales
 Las librerías utilizadas para el proyecto son:
 ```bash
 import 'dart:async';
