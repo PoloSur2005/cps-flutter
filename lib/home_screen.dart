@@ -40,11 +40,6 @@ class _HomeScreenState extends State<HomeScreen> {
     }
   }
 
-  @override
-  void dispose() {
-    _timer.cancel(); // Cancelar el temporizador para reiniciar el contador
-    super.dispose();
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -90,14 +85,14 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
       ),
       bottomNavigationBar: Container(
-        color: Colors.blue, // Puedes cambiar el color de fondo según tu diseño
+        color: Colors.blue,
         child: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Text(
             contador,
             style: const TextStyle(
                 color: Colors
-                    .white), // Puedes cambiar el color del texto según tu diseño
+                    .white), 
           ),
         ),
       ),
