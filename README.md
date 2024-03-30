@@ -17,7 +17,7 @@ void iniciarTimer() {
 ```
 Decidí hacer el ciclo cada 0.1 segundos para que la actualización de la velocidad sea más fluida y la medición sea más exacta; sin embargo, esto puede cambiarse según las necesidades de uso.
 
-###Botón
+###Boton
 ```dart
 floatingActionButton: FloatingActionButton(
   onPressed: () {
