@@ -15,7 +15,7 @@ class _HomeScreenState extends State<HomeScreen> {
   String clic = "CPS";
   num velocidad = 0;
   String vel = "";
-  double tim = 0.2;
+  double tim = 1;
   String contador = "";
   late Timer _timer;
   bool primerClick = false;
@@ -48,7 +48,7 @@ class _HomeScreenState extends State<HomeScreen> {
         onPressed: () {
           clickcontador = 0;
           taps = 0;
-          tim = 0.2;
+          tim = 1;
           primerClick = false;
           if (_timer.isActive) {
             _timer.cancel(); // Cancelar el temporizador si está activo
